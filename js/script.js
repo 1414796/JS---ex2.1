@@ -107,6 +107,7 @@ function showCalendar(month, year) {
                 let cellText = document.createTextNode(date);
                 cell.setAttribute("onclick","getDayMonthYear(event)");
                 // cell.setAttribute("id", date);
+                cell.setAttribute("class", 'format');
 
                 if (date === today.getDate() && year === today.getFullYear() && month === today.getMonth()) {
                     cell.classList.add("button-blue");

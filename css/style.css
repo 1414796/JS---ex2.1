@@ -1,8 +1,7 @@
 
-
 .calendar-container {
 	padding: 10px;
-	width: 360px;
+	/*width: 360px;*/
 	text-align: center;
 	border: 1px solid #eee;
 	border-radius: 10px;
@@ -19,7 +18,8 @@ table > thead > tr > th {
 }
 
 table > thead >tr >td {
-	padding: 4px;
+	padding: 3px;
+	width: 51px;
 	border: 1px solid #eee;
 	background-color: #d6d6ef;
 }
@@ -45,18 +45,17 @@ table > thead > tr > td > select {
 	height: 25px;
 }
 
-/*#calendar-container > div {*/
-	/*padding: 0;*/
-	/*margin-bottom: 10px;*/
-/*}*/
-
-/*#calendar-month-year {*/
-	/*margin: 5px;*/
-/*}*/
-
 #calendar-body > tr > td {
 	padding: 6px;
 	border: 1px solid #eee;
+}
+
+.format {
+	cursor: pointer;
+}
+
+.format:hover {
+	background-color: #f1ebf5;
 }
 
 /*#calendar-header button {*/
